@@ -40,14 +40,6 @@ namespace EsemkaFoodcourt
                         Form2.Show();
                         this.Hide();
                     }
-                    else
-                    { 
-
-                    }
-                }
-                else
-                {
-                    MessageBox.Show("Password Salah");
                 }
             }
             else

@@ -29,7 +29,7 @@ namespace EsemkaFoodcourt
         private void Table_Load(object sender, EventArgs e)
         {
             label1.Text = id.ToString();
-            if (reserved.Any(f => f == id))
+            if (reserved != null && reserved.Any(f => f == id))
             {
                 pictureBox1.BringToFront();
             }

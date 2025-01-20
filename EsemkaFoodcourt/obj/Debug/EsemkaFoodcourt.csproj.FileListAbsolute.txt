@@ -15,3 +15,4 @@ D:\Pelatihan LKS\Bootcamp\EsemkaFoodcourt\EsemkaFoodcourt\obj\Debug\EsemkaFoodco
 D:\Pelatihan LKS\Bootcamp\EsemkaFoodcourt\EsemkaFoodcourt\obj\Debug\EsemkaFoodcourt.pdb
 D:\Pelatihan LKS\Bootcamp\EsemkaFoodcourt\EsemkaFoodcourt\obj\Debug\EsemkaFoodcourt.Form3.resources
 D:\Pelatihan LKS\Bootcamp\EsemkaFoodcourt\EsemkaFoodcourt\obj\Debug\EsemkaFoodcourt.Table.resources
+D:\Pelatihan LKS\Bootcamp\EsemkaFoodcourt\EsemkaFoodcourt\obj\Debug\EsemkaFoodcourt.Form4.resources

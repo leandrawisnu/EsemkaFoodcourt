@@ -14,6 +14,8 @@ namespace EsemkaFoodcourt
     {
         EsemkaFoodcourtEntities db = new EsemkaFoodcourtEntities();
         Users users;
+        int[] availableTable;
+
         public Form3(Users users)
         {
             this.users = users;
@@ -22,24 +24,48 @@ namespace EsemkaFoodcourt
 
         private void Form3_Load(object sender, EventArgs e)
         {
+            // Edit Welcome Text
             label1.Text += string.Join(" ", users.FirstName, users.LastName);
 
-            int[] reservations = db.Reservations.Select(Select => Select.TableID).ToArray();
+            // List Table
+            var tables = db.Tables.Select(f => f.ID).ToArray();
 
-            var tables= db.Tables.ToList();
+            // Cari Data untuk hari ini
+            var reservationsData = db.Reservations.ToList();
 
-            foreach (var item in tables)
+            // Kalau ada
+            if (reservationsData.Any())
             {
-                flowLayoutPanel1.Controls.Add(new Table(item.ID, reservations)
+                // Buat Array untuk table yang diisi
+                int[] reservations = reservationsData.Select(Select => Select.TableID).ToArray();
+                foreach (var item in tables)
                 {
-
-                });
+                    flowLayoutPanel1.Controls.Add(new Table(item, reservations));
+                }
+                availableTable = tables.Except(reservations).ToArray();
+            }
+            // Kalau tidak ada
+            else if (!reservationsData.Any())
+            {
+                // Kalau kosong kirim null
+                foreach (var item in tables)
+                {
+                    flowLayoutPanel1.Controls.Add(new Table(item, null));
+                }
+                availableTable = tables;
             }
         }
 
         private void flowLayoutPanel1_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            var Form4 = new Form4(availableTable);
+            Form4.Show();
+            this.Hide();
         }
     }
 }
