@@ -1,0 +1,17 @@
+D:\Pelatihan LKS\Bootcamp\EsemkaFoodcourt\EsemkaFoodcourt\bin\Debug\EsemkaFoodcourt.exe.config
+D:\Pelatihan LKS\Bootcamp\EsemkaFoodcourt\EsemkaFoodcourt\bin\Debug\EsemkaFoodcourt.exe
+D:\Pelatihan LKS\Bootcamp\EsemkaFoodcourt\EsemkaFoodcourt\bin\Debug\EsemkaFoodcourt.pdb
+D:\Pelatihan LKS\Bootcamp\EsemkaFoodcourt\EsemkaFoodcourt\bin\Debug\EntityFramework.dll
+D:\Pelatihan LKS\Bootcamp\EsemkaFoodcourt\EsemkaFoodcourt\bin\Debug\EntityFramework.SqlServer.dll
+D:\Pelatihan LKS\Bootcamp\EsemkaFoodcourt\EsemkaFoodcourt\bin\Debug\EntityFramework.xml
+D:\Pelatihan LKS\Bootcamp\EsemkaFoodcourt\EsemkaFoodcourt\bin\Debug\EntityFramework.SqlServer.xml
+D:\Pelatihan LKS\Bootcamp\EsemkaFoodcourt\EsemkaFoodcourt\obj\Debug\EsemkaFoodcourt.csproj.AssemblyReference.cache
+D:\Pelatihan LKS\Bootcamp\EsemkaFoodcourt\EsemkaFoodcourt\obj\Debug\EsemkaFoodcourt.Form1.resources
+D:\Pelatihan LKS\Bootcamp\EsemkaFoodcourt\EsemkaFoodcourt\obj\Debug\EsemkaFoodcourt.Properties.Resources.resources
+D:\Pelatihan LKS\Bootcamp\EsemkaFoodcourt\EsemkaFoodcourt\obj\Debug\EsemkaFoodcourt.csproj.GenerateResource.cache
+D:\Pelatihan LKS\Bootcamp\EsemkaFoodcourt\EsemkaFoodcourt\obj\Debug\EsemkaFoodcourt.csproj.CoreCompileInputs.cache
+D:\Pelatihan LKS\Bootcamp\EsemkaFoodcourt\EsemkaFoodcourt\obj\Debug\EsemkaFo.92755EBE.Up2Date
+D:\Pelatihan LKS\Bootcamp\EsemkaFoodcourt\EsemkaFoodcourt\obj\Debug\EsemkaFoodcourt.exe
+D:\Pelatihan LKS\Bootcamp\EsemkaFoodcourt\EsemkaFoodcourt\obj\Debug\EsemkaFoodcourt.pdb
+D:\Pelatihan LKS\Bootcamp\EsemkaFoodcourt\EsemkaFoodcourt\obj\Debug\EsemkaFoodcourt.Form3.resources
+D:\Pelatihan LKS\Bootcamp\EsemkaFoodcourt\EsemkaFoodcourt\obj\Debug\EsemkaFoodcourt.Table.resources
