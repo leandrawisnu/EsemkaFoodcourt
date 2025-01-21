@@ -31,7 +31,7 @@ namespace EsemkaFoodcourt
             var tables = db.Tables.Select(f => f.ID).ToArray();
 
             // Cari Data untuk hari ini
-            var reservationsData = db.Reservations.ToList();
+            var reservationsData = db.Reservations.Where(f => f.ReservationDate == DateTime.Now).ToList();
 
             // Kalau ada
             if (reservationsData.Any())
@@ -63,7 +63,7 @@ namespace EsemkaFoodcourt
 
         private void button1_Click(object sender, EventArgs e)
         {
-            var Form4 = new Form4(availableTable);
+            var Form4 = new Form4(availableTable, users);
             Form4.Show();
             this.Hide();
         }
